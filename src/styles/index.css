@@ -9,3 +9,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.todo-item .delete-icon {
+display: none;
+cursor: pointer;
+}
+
+.todo-item:hover .delete-icon {
+display: inline;
+}
+
+.todo-box {
+border: 1px solid #dee2e6;
+border-radius: 10px;
+background-color: #ffffff;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+position: relative;
+padding-bottom: 40px;
+}
+
+.todo-footer {
+position: absolute;
+bottom: 10px;
+left: 20px;
+opacity: 0.6;
+font-size: 0.85rem;
+z-index: 2;
+background-color: white;
+padding: 0 5px;
+}
